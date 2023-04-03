@@ -1,7 +1,10 @@
+using net_calculator_tester;
+
 namespace Tests
 {
     public class Tests
     {
+        Calculator calc;
         [SetUp]
         public void Setup()
         {
