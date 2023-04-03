@@ -24,5 +24,14 @@ namespace net_calculator_tester
         {
             return num1 * num2;
         }
+
+        public float Divide_prova_exc(float num1, float num2)
+        {
+            if (num2 == 0)
+            {
+                throw new System.ArgumentException("Non puoi dividere per 0!!");
+            }
+            return num1 / num2;
+        }
     }
 }
